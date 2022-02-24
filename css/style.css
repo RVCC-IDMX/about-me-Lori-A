@@ -21,3 +21,16 @@ h2{
     
 
 }
+
+
+
+#gallery{
+    text-align: center;
+}
+#gallery img{
+     max-width: 90%;
+}
+#gallery figcaption{
+    color: white;
+    font-size: Shizuru;
+}
