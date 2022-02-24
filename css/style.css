@@ -18,7 +18,7 @@ h2{
 #hobbies ul li {
     border: 5px groove black;
     padding: 30px;
-    
+    max-width: 100px;
 
 }
 
@@ -36,7 +36,7 @@ h2{
 }
 /* Articel*/
 article p{
-    border: 1px solid;
+    
     padding: 1rem;
     padding-top:0rem;
     max-width: 600px;
