@@ -34,3 +34,11 @@ h2{
     color: white;
     font-size: Shizuru;
 }
+/* Articel*/
+article p{
+    border: 1px solid;
+    padding: 1rem;
+    padding-top:0rem;
+    max-width: 600px;
+    text-align: justify;
+}
