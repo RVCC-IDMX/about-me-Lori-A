@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+header{
+    background-color: bisque;
+}
+h1{
+    color: cadetblue;
+}
+
+h2{
+    color: darkcyan;
+   font-family: Redressed;
+  font-size: 50px;
+    text-align:left;
+}
+
+#hobbies ul li {
+    border: 5px groove black;
+    padding: 30px;
+    
+
+}
