@@ -1,20 +1,30 @@
 body{
-    background-color: aqua;
+    background-color: #5CFFE6;
 }
 header{
-    background-color: bisque;
+    background-color: #3DB1E0;
+    text-align: center;
 }
 h1{
-    color: cadetblue;
+    font-family: "Bungee Inline";
+    color: black;
 }
 
 h2{
-    color: darkcyan;
-   font-family: Redressed;
+    
+    color: #94530A;
+   font-family: "Oleo Script";
   font-size: 50px;
     text-align:left;
 }
 
+p{
+    font-family: "Oleo Script";
+}
+
+img{
+    background-color: #FFE378;
+}
 #hobbies ul li {
     border: 5px groove black;
     padding: 30px;
@@ -22,7 +32,13 @@ h2{
 
 }
 
+#hero{
+    text-align: center;
+}
 
+#hero img{
+    width: 300px;
+}
 
 #gallery{
     text-align: center;
