@@ -32,12 +32,19 @@ img{
 
 }
 
-#hero{
+#hero, footer{
     text-align: center;
+    border: 1px dotted ;
+    
+    padding: 10px;
 }
 
 #hero img{
     width: 300px;
+}
+
+#bio{
+    text-align: center;
 }
 
 #gallery{
