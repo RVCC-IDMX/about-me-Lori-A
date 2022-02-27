@@ -26,21 +26,29 @@ img{
     background-color: #FFE378;
 }
 #hobbies ul li {
-    border: 5px groove black;
+    border: 5px solid #FFE378;
     padding: 30px;
     max-width: 100px;
+    margin: 10px;
 
 }
 
 #hero, footer{
     text-align: center;
-    border: 1px dotted ;
-    
+    border: 5px double #94530A;
     padding: 10px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    box-shadow: 10px 10px 10px;
+    
+
+
 }
 
 #hero img{
+    text-align: center;
     width: 300px;
+    
 }
 
 #bio{
@@ -51,12 +59,18 @@ img{
     text-align: center;
 }
 #gallery img{
-     max-width: 90%;
+     max-width: 35%;
 }
 #gallery figcaption{
-    color: white;
+    color: #94530A;
     font-size: Shizuru;
+    border: #94530A groove;
+    max-width: 300px;
+    text-align: center;
+   
+    
 }
+
 /* Articel*/
 article p{
     
