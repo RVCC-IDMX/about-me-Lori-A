@@ -25,11 +25,21 @@ p{
 img{
     background-color: #FFE378;
 }
+#hobbies
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
 #hobbies ul li {
-    border: 5px solid #FFE378;
+
+    border: 5px groove #FFE378;
     padding: 30px;
     max-width: 100px;
     margin: 10px;
+    box-shadow: 10px 3px 20px #FFE378 ;
 
 }
 
@@ -59,23 +69,62 @@ img{
     text-align: center;
 }
 #gallery img{
-     max-width: 35%;
+    width:100%;
+     max-width: 100%;
 }
 #gallery figcaption{
     color: #94530A;
     font-size: Shizuru;
     border: #94530A groove;
-    max-width: 300px;
+    
     text-align: center;
    
     
 }
 
 /* Articel*/
-article p{
+article p :nth-child(odd)::first-letter{
     
     padding: 1rem;
     padding-top:0rem;
     max-width: 600px;
     text-align: justify;
 }
+/* drop caps*/
+article p::first-letter
+{
+    color: #94530A;
+    font-size: 400%;
+    border: 5px double black;
+    padding-left: .6ex;
+    padding-right: .6ex;
+    float: left;
+    margin-right: .5ex;
+    clear:left;
+    
+    background-color: blanchedalmond;
+    background-image: radial-gradient(cyan,#94530A);
+    box-shadow: 6px 4px 5px black;}
+
+    
+   
+    /* tablet state*/
+    @media screen and (min-width: 960px) {
+        figure{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    }
+        
+    
+     
+    
+
