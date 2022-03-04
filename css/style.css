@@ -69,18 +69,28 @@ img{
     text-align: center;
 }
 #gallery img{
-    width:100%;
+    width:50%;
      max-width: 100%;
 }
 #gallery figcaption{
     color: #94530A;
-    font-size: Shizuru;
-    border: #94530A groove;
+    font-size: 20px;
+    width: 300px;
+    height: 15px;
     
-    text-align: center;
+    text-align: right;
+    border:  #94530A solid;
+    box-shadow: 15px 3px 5px black;
+    
+    padding-bottom:5px;
+    
+    margin: 3px 5px 2px;
+
+    
    
     
 }
+
 
 /* Articel*/
 article p :nth-child(odd)::first-letter{
@@ -94,7 +104,7 @@ article p :nth-child(odd)::first-letter{
 article p::first-letter
 {
     color: #94530A;
-    font-size: 400%;
+    font-size: 200%;
     border: 5px double black;
     padding-left: .6ex;
     padding-right: .6ex;
