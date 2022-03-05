@@ -1,6 +1,7 @@
 body{
-    background-color: #5CFFE6;
+    background-color: #FFE378;
 }
+/* #5CFFE6*/
 header{
     background-color: #3DB1E0;
     text-align: center;
@@ -23,7 +24,9 @@ p{
 }
 
 img{
-    background-color: #FFE378;
+    background-color: #5CFFE6;
+    border:ridge #94530A;
+    box-shadow: 2px 3px 10px #94530A;
 }
 #hobbies
 {
@@ -35,21 +38,22 @@ img{
 }
 #hobbies ul li {
 
-    border: 5px groove #FFE378;
+    border: 5px groove #5CFFE6;
     padding: 30px;
     max-width: 100px;
     margin: 10px;
-    box-shadow: 10px 3px 20px #FFE378 ;
+    box-shadow: 20px 3px 10px #FFE378 ;
 
 }
 
 #hero, footer{
     text-align: center;
-    border: 5px double #94530A;
+    border: 5px solid #5CFFE6;
     padding: 10px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
     box-shadow: 10px 10px 10px;
+    
     
 
 
@@ -57,7 +61,7 @@ img{
 
 #hero img{
     text-align: center;
-    width: 300px;
+    width: 200px;
     
 }
 
@@ -110,7 +114,9 @@ article p::first-letter
     padding-right: .6ex;
     float: left;
     margin-right: .5ex;
-    clear:left;
+    margin-bottom: 1ex;
+    clear:both;
+    margin: 10px;
     
     background-color: blanchedalmond;
     background-image: radial-gradient(cyan,#94530A);
