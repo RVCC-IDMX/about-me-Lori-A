@@ -38,17 +38,17 @@ img{
 }
 #hobbies ul li {
 
-    border: 5px groove #5CFFE6;
+    border: 5px solid #5CFFE6;
     padding: 30px;
     max-width: 100px;
     margin: 10px;
-    box-shadow: 20px 3px 10px #FFE378 ;
+    box-shadow: 10px 10px 10px #94530A;
 
 }
 
 #hero, footer{
     text-align: center;
-    border: 5px solid #5CFFE6;
+    border: 10px double #5CFFE6;
     padding: 10px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
@@ -110,10 +110,10 @@ article p::first-letter
     color: #94530A;
     font-size: 200%;
     border: 5px double black;
-    padding-left: .6ex;
-    padding-right: .6ex;
+    padding-left: 3px;
+    padding-right: 3px;
     float: left;
-    margin-right: .5ex;
+    margin-right: 3px;
     margin-bottom: 1ex;
     clear:both;
     margin: 10px;
@@ -129,6 +129,8 @@ article p::first-letter
         figure{
             display: grid;
             grid-template-columns: 2fr 1fr;
+            grid-template-areas: ;
+            
         }
     figcaption{
         display: flex;
