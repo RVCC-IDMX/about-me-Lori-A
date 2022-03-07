@@ -115,7 +115,7 @@ article p::first-letter
     float: left;
     margin-right: 3px;
     margin-bottom: 1ex;
-    clear:both;
+    clear: both;
     margin: 10px;
     
     background-color: blanchedalmond;
@@ -129,7 +129,7 @@ article p::first-letter
         figure{
             display: grid;
             grid-template-columns: 2fr 1fr;
-            grid-template-areas: ;
+            grid-template-areas: 2px;
             
         }
     figcaption{
