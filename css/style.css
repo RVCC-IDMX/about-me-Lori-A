@@ -119,7 +119,7 @@ article p::first-letter
     margin: 10px;
     
     background-color: blanchedalmond;
-    background-image: radial-gradient(cyan,#94530A);
+    background-image: radial-gradient(#94530A,#5CFFE6, #FFE378);
     box-shadow: 6px 4px 5px black;}
 
     
