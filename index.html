@@ -126,8 +126,62 @@
 </div>
 
 </article>
+<section id=contact>
+<h2> Contact Me</h2>
+</section>
 
 
+<form name="contact me" method="post" data.netlify="true">
+<fieldset>
+<legend>
+    Contact Form:</legend>
+
+    <label for="name">Name:</label>
+    <input id= "name" name="name" type="text" required><br>
+    <label for = "Email"> Email:</label>
+    <input id = name name="email" type="email" required><br>
+    Phone Number (Optional):
+    <input phone ="phone" type="tel" required><br>
+    Phone Type:
+    <select name="phone_type">
+        <option value="H">Home</option>
+        <option value="W">Work</option>
+        <option value="C">Cell</option>
+    </select><br>
+
+    Message:
+    <textarea></textarea>
+
+    <fieldset>
+        <legend>Would you like a reply?</legend>
+        <ul>
+            <li>
+                <input id= "yes_reply" name ="reply" type="radio" value="yes">
+                <label for = "yes_reply">Yes</label>
+            </li>
+            
+            
+            <li><input id="no_reply" name ="reply" type="radio" value="No">
+                <label for = "no_reply">No</label>
+            </li>
+        </ul>
+    </fieldset>
+    <input type="submit" value="Send">
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+</form>
 
 
 </main>
