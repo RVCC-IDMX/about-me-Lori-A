@@ -4,6 +4,7 @@ body{
 }
 /* #5CFFE6*/
 header{
+    border: solid;
     background-color: #3DB1E0;
     text-align: center;
 }
@@ -50,11 +51,11 @@ img{
 
 #hero, footer{
     text-align: center;
-    border: 10px double #5CFFE6;
+    border: 10px double #FFE378;
     padding: 10px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
-    box-shadow: 5px 5px 5px #94530A;
+    box-shadow: 5px 2px 5px #94530A;
     
     
 
