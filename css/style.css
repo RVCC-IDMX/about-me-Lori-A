@@ -19,7 +19,7 @@ h2{
    font-family: "Oleo Script";
   font-size: 50px;
     text-align:left;
-    
+    text-decoration: underline;
 }
 
 p{
@@ -144,7 +144,7 @@ article p::first-letter
     }
 
 }
-contact
+
     
      
     
