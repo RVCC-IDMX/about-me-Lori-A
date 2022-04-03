@@ -1,5 +1,6 @@
 body{
     background-color: #FFE378;
+    background-image: linear-gradient( grey, #5CFFE6);
 }
 /* #5CFFE6*/
 header{
@@ -17,6 +18,7 @@ h2{
    font-family: "Oleo Script";
   font-size: 50px;
     text-align:left;
+    
 }
 
 p{
@@ -52,7 +54,7 @@ img{
     padding: 10px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 5px #94530A;
     
     
 
@@ -83,8 +85,8 @@ img{
     height: 15px;
     
     text-align: right;
-    border:  #94530A solid;
-    box-shadow: 15px 3px 5px black;
+    border:  #3DB1E0 solid;
+    box-shadow: 5px 3px 5px #FFE378;
     
     padding-bottom:5px;
     
@@ -140,8 +142,8 @@ article p::first-letter
         margin-left: 1rem;
     }
 
-    }
-        
+}
+contact
     
      
     
