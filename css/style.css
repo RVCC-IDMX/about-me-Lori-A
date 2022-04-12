@@ -1,5 +1,6 @@
 body{
     background-color: #FFE378;
+    
     background-image: linear-gradient( #FFE378,#3DB1E0,#5CFFE6, grey);
 }
 
@@ -53,6 +54,9 @@ img{
     padding: 30px;
     max-width: 100px;
     margin-bottom: 30px;
+    background-image: url(/img/cherryblossoms2.jpg);
+    background-size: auto;
+    background-position: center;
     box-shadow: 10px 10px 10px #94530A;
             transition-duration: 2s;
 
@@ -60,6 +64,7 @@ img{
 #hobbies ul li:hover {
     background-color: #FFE378;
     transition-duration:2s;
+    color: #FFE378;
     transform: scale(1.5) ;
 }
 
@@ -114,6 +119,7 @@ img{
     
 }
 
+
 /* Articel*/
 article p :nth-child(odd)::first-letter{
     
@@ -125,7 +131,7 @@ article p :nth-child(odd)::first-letter{
 /* drop caps*/
 article p::first-letter
 {
-    color: #94530A;
+    color:black;
     font-size: 200%;
     border: 5px double black;
     padding-left: 3px;
@@ -137,8 +143,9 @@ article p::first-letter
     margin: 10px;
     
     background-color: blanchedalmond;
-    background-image: radial-gradient(#94530A,#5CFFE6, #FFE378);
-    box-shadow: 6px 4px 5px black;}
+    background-image: radial-gradient( #94530A,#5CFFE6,#FFE378);
+    box-shadow: 6px 4px 5px black;
+}
 
     
    
@@ -156,6 +163,10 @@ article p::first-letter
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+    #lit{
+        max-width: 100%;
+        columns: 40rem;
     }
 }
 
