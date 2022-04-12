@@ -22,7 +22,7 @@ h2{
     color: #94530A;
    font-family: "Oleo Script";
   font-size: 50px;
-    text-align:left;
+    text-align:center;
     text-decoration: underline;
 }
 
@@ -168,6 +168,34 @@ article p::first-letter
         max-width: 100%;
         columns: 40rem;
     }
+}
+#contact h2{
+    text-align: left;
+}
+#video {
+    text-align: center;
+}
+
+#contact {
+    max-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#contact label {
+    display:block;
+}
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"] {
+    width:100%;
+}
+
+#contact fieldset{
+    
+    color:#5CFFE6 ;
+    
+}
+#contact label{
 }
 
 
