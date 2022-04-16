@@ -32,9 +32,14 @@ nav li{
     margin: 5px;
     display: inline-block;
 }
-
+a:link{
+    color:black;
+}
   a:hover{
       color:#FFE378;
+  }
+  a:visited{
+      color: #5CFFE6;
   }
  
 
@@ -52,22 +57,31 @@ nav li{
 }
 
 
-
-
-/* navigation list */
-
-
 /*  
  style all a tags in header 
  and then on hover
 */
-
-
-
-
-
+a:link{
+    color:black;
+}
+  a:hover{
+      color:#FFE378;
+  }
+  a:visited{
+      color: #5CFFE6;
+  }
+ 
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width:80px)
+{
+    .navbar{
+        display:grid;
+        flex-direction: row;
+        
+    }
+}
