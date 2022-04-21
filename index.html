@@ -25,21 +25,31 @@
 <!--the logo and page title-->
 <nav class="navbar">
     <div class="logo">
-        <img src="img/logo-96X96.svg" class="log0" alt="blue origami bird">
+        <img src="img/logo-96X96.svg" class="logo" alt="blue origami bird">
 
         <h1>Web Dev 1!</h1>  
     </div>
     
-    <div class="navbar-links">
-        <ul>
-            <li><a href="#hobbies" class= "nav-links">Hobbies</a></li>
-            <li><a href="#video" class="nav-links">Video</a></li>
-            <li><a href="#gallery" class="nav-links">Gallery</a></li>
-            <li><a href="#bio" class= "nav-links">Bio</a></li>
-            <li><a href="#lit" class="nav-links">Lit</a></li>
-            <li><a href="#contact" class="nav-links">Contact</a></li>
-        </ul>
-    </div>
+        <input type="checkbox" id="nav_checkbox">
+        <label id="nav_toggle" for="nav_checkbox">
+            <div id="nav_open">
+              <img src ="img/touch.png" class="icon" alt="hamburgericon">
+            </div>
+            <div id="nav_closed">
+                <img src="img/hamburgericon.png" class="open" alt="touchicon">
+            </div>
+        </label>
+
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#hobbies" class= "nav-links">Hobbies</a></li>
+                <li><a href="#video" class="nav-links">Video</a></li>
+                <li><a href="#gallery" class="nav-links">Gallery</a></li>
+                <li><a href="#bio" class= "nav-links">Bio</a></li>
+                <li><a href="#lit" class="nav-links">Lit</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+        </div>
 </nav>
 
 
