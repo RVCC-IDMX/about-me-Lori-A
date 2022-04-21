@@ -54,6 +54,8 @@ a:link{
 .logo img{
     height: 7vw;
     width: 7vw; 
+    margin-bottom:2rem;
+    margin-left: .25rem;
 }
 
 
@@ -84,4 +86,62 @@ such that no text wraps
         flex-direction: row;
         
     }
+}
+
+
+/* Professor's Code */
+#nav_toggle #nav_open {
+    display:none;
+}
+#nav_checkbox:checked ~ #nav_toggle #nav_open {
+    display:block;
+}
+
+#nav_toggle #nav_closed {
+    display:block;
+}
+#nav_checkbox:checked ~ #nav_toggle #nav_closed {
+    display:none;
+}
+
+#nav_checkbox {
+    display:none;
+}
+
+.navbar-links {
+    display:none;
+}
+#nav_checkbox:checked ~ .navbar-links {
+    display:block;
+}
+.icon{
+    max-width: 2rem;
+    max-height: 2rem;
+    background-image: linear-gradient(#FFE378,grey,#94530A);
+    padding: 10px;
+
+    
+}
+.open{
+    max-width: 2rem;
+    max-height: 2rem;
+    background-image: linear-gradient(#FFE378,grey,#94530A);
+    padding: 10px;
+}
+
+#nav_toggle { /*Professor's code*/
+   
+    position:absolute;
+    top:20px;
+    right:40px;
+}
+@media screen and (min-width: 960px) {
+
+    #nav_toggle {
+        display:none;
+    }
+    .navbar-links {
+        display:block;
+    }
+
 }
