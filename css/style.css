@@ -7,7 +7,7 @@ body{
 header{
     border: solid;
     text-align: center;
-    background-image: linear-gradient(#FFE378,grey,#94530A);
+    background-image: url(/img/cherryblossoms2.jpg);
 }
 header img {
     margin-top:2em;
@@ -42,6 +42,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 #hobbies ul {
@@ -97,20 +98,28 @@ img{
     text-align: center;
 }
 #gallery img{
-    max-width: 480px;
-    max-height:640px;
     
+    max-width: 480;
+    max-height:500px;
+
+    
+}
+figure img{
+    display: flex;
 }
 #gallery figure{
     margin-bottom: 95px;
+    margin-top: 95px;
+    display: inline-block;
 }
+
 #gallery figcaption{
     color: #94530A;
     font-size: 20px;
     width: 300px;
     height: 15px;
     text-align: center;
-    border:  black solid;
+    border:  black 5px double ;
     box-shadow: 5px 3px 5px #94530A;
     padding-top: 5px;
     padding-bottom:5px;
@@ -151,7 +160,7 @@ article p::first-letter
    
     /* tablet state*/
     @media screen and (min-width: 960px) {
-        figure{
+        figure img{
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-template-areas: 2px;
@@ -169,6 +178,7 @@ article p::first-letter
         columns: 40rem;
     }
 }
+
 #contact h2{
     text-align: left;
 }
@@ -182,7 +192,8 @@ article p::first-letter
     margin-right:auto;
 }
 #contact label {
-    display:block;
+    display:inline;
+    
 }
 #contact input[type="text"],
 #contact input[type="tel"],
@@ -192,11 +203,14 @@ article p::first-letter
 
 #contact fieldset{
     
-    color:#5CFFE6 ;
+    color:#5CFFE6;
     
 }
-#contact label{
+
+#contact ul label{
+    list-style: none;
 }
+
 nav ul {
     padding:0px;
 }

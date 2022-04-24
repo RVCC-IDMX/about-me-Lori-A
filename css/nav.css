@@ -4,10 +4,7 @@ html{
     scroll-behavior:smooth;
 }
 
-/* 
- get rid of padding & sizing on body so
- header is at top
-*/
+
 body{
     box-sizing: border-box;
     padding:10px;
@@ -18,7 +15,7 @@ main{
     padding: 1vw;   
 }
 
-/* add some padding back to rest of page */
+
 
 
 /* navbar */
@@ -31,15 +28,16 @@ nav li{
     padding: 5px;
     margin: 5px;
     display: inline-block;
+    font-size:1.2em;
 }
 a:link{
     color:black;
 }
   a:hover{
-      color:#FFE378;
+      color: #FFE378;
   }
   a:visited{
-      color: #5CFFE6;
+      color:#5CFFE6;
   }
  
 
