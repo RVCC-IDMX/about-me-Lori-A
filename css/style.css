@@ -106,6 +106,7 @@ img{
 }
 figure img{
     display: flex;
+   
 }
 #gallery figure{
     margin-bottom: 95px;
@@ -177,6 +178,11 @@ article p::first-letter
         max-width: 100%;
         columns: 40rem;
     }
+}
+
+#lit {
+    color: #94530A;
+    
 }
 
 #contact h2{
