@@ -58,14 +58,14 @@ img{
     background-image: url(/img/cherryblossoms2.jpg);
     background-size: auto;
     background-position: center;
-    box-shadow: 10px 10px 10px #94530A;
+    box-shadow: 10px 10px 10px #FFE378;
             transition-duration: 2s;
 
 }
 #hobbies ul li:hover {
     background-color: #FFE378;
     transition-duration:2s;
-    color: #FFE378;
+    color: #94530A;
     transform: scale(1.5) ;
 }
 
@@ -113,6 +113,7 @@ figure img{
     margin-top: 95px;
     display: inline-block;
 }
+
 
 #gallery figcaption{
     color: #94530A;
@@ -217,17 +218,17 @@ article p::first-letter
     list-style: none;
 }
 
-nav ul {
-    padding:0px;
-}
-nav li{
-    list-style: none;
-    /*border:2px solid #94530A;*/
-    padding: 5px;
-    margin: 5px;
-    display: inline-block;
-}
 
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery hr {
+    display: none;
+}
+#gallery h2 {
+    grid-column: 1/-1;
+}
   
     
      
