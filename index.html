@@ -144,17 +144,57 @@
 </section>
 
 <article>
-<h2><u>Dracula</u></h2>
+<h2><u>CSS Animation</u></h2>
 <div id="lit">
-    <p>"You forget--or perhaps you do not know, though Jonathan does and so does Dr. Van Helsing--that I am the train fiend. At home in Exeter I always used to make up the time-tables, so as to be helpful to my husband. I found it so useful sometimes, that I always make a study of the time-tables now. I knew that if anything were to take us to Castle Dracula we should go by Galatz, or at any rate through Bucharest, so I learned the times very carefully. Unhappily there are not many to learn, as the only train to-morrow leaves as I say."</p>
+    <p>"CSS allows animation of HTML elements without using JavaScript or Flash!"(w3schools). The purpose of this style is to let an element change from one style to another. However, to use this type of a style, you must specify some "keyframes"  There are nine properties related to this type of CSS, namely:
+        <ul>
+        
+            <li><b>@keyframes</b></li>
+            <li><b>animation-name</b></li>
+            <li><b>animation-duration</b> </li>
+            <li><b>animation-delay</b></li>
+            <li><b>animation-iteration-count</b></li>
+            <li><b>animation-direction</b></li>
+            <li><b>animation-timing-function</b></li>
+            <li><b>animation-fill-mode</b></li>
+            <li><b>animation</b></li>
+            
+        </ul>
+      
+    </p>
 
 
 
 
 
-<p>"Can't we get a special?" asked Lord Godalming. Van Helsing shook his head: "I fear not. This land is very different from yours or mine; even if we did have a special, it would probably not arrive as soon as our regular train. Moreover, we have something to prepare. We must think. Now let us organize. You, friend Arthur, go to the train and get the tickets and arrange that all be ready for us to go in the morning. Do you, friend Jonathan, go to the agent of the ship and get from him letters to the agent in Galatz, with authority to make search the ship just as it was here. Morris Quincey, you see the Vice-Consul, and get his aid with his fellow in Galatz and all he can do to make our way smooth, so that no times be lost when over the Danube. John will stay with Madam Mina and me, and we shall consult. For so if time be long you may be delayed; and it will not matter when the sun set, since I am here with Madam to make report."</p>
+<p>
+    First we will discuss @keyframes rule.
+ This rule allows the animation to gradually change from one particular style to another at particular times. In order to get the animation working, the coder must bind the animation to an element. The main purpose of this rule is to hold whatever styles an element will have at certain times. For example (taken from w3schools)
+ /* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+    To create the @keyframes with a name, the animation-name property must be used. It specifies the names of one or more @keyframes which describes the animation(s) to apply to the element. The rule itself consists of keyframe sectors that allocates percentages to when the allocation occurs and a another list containing the styles for the @keyframe rule. Percentages can be listed in any order but it's important to note that they will execute in that exact order.
 
-<p>"And I," said Mrs. Harker brightly, and more like her old self than she had been for many a long day, "shall try to be of use in all ways, and shall think and write for you as I used to do. Something is shifting from me in some strange way, and I feel freer than I have been of late!" The three younger men looked happier at the moment as they seemed to realise the significance of her words; but Van Helsing and I, turning to each other, met each a grave and troubled glance. We said nothing at the time, however.</p>
+    <br><u>Animation-duration</u></br>
+    This property outlines how long an animation should take to complete. If the property isn't defined then the animation will not occur because of the default value which is set to 0. The time may be specified in seconds 9s) or milliseconds (ms).In other words, this property sets the lenght of time to a particular value and that value will determine how long the animation will take to complete one cycle. Just like the animation-name property, you can use percent to add as many style to an element as much as you like. For example (taken from w3schools)
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+</p>
+
+<p> 
+
+ <br><u>Animation-delay</br></u>"
+  As the name suggests, this property specifies how long the animation will delay for the start of the animation. The animation can either start from the beginning, partway through the animation or at a later time. The time selctor specifies the moment the animation is applied to the specific element. Just like animation-duration, time can be specified using either seconds (s) or milliseconds (ms). For this animation, the unit is required. A positive value means that the animation should begin after the specified time has past. If the default time is chosen, that is 0, it indicates that animation will begin as soon as its applied to the element. On the other hand, if it is negative, it means that the animation will begin partway through its cycle.
+
+
+</p>
+
 </div>
 
 </article>
