@@ -58,7 +58,7 @@ img{
     background-image: url(/img/cherryblossoms2.jpg);
     background-size: auto;
     background-position: center;
-    box-shadow: 10px 10px 10px #FFE378;
+    box-shadow: 5px 2px 10px #94530A;
             transition-duration: 2s;
 
 }
@@ -103,9 +103,9 @@ img{
 
     
 }
-figure img{
+
    
-}
+
 #gallery figure{
     margin:0px;
     margin-bottom: 95px;
@@ -245,11 +245,24 @@ article p::first-letter
     background-color: #FFE378;
     animation-name: flower;
     animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+#flower{
+    align-self: center;
 }
 @keyframes flower{
     from{background-color: #FFE378;}
     to {background-color: #94530A;}
+
     
+}
+
+#contact label{
+    padding-bottom: 10em;
+}
+
+#flower img{
+    align-items: center;
 }
     
      
