@@ -187,6 +187,7 @@ article p::first-letter
 }
 
 #contact {
+    text-align: center;
     max-width:400px;
     margin-left:auto;
     margin-right:auto;
@@ -197,11 +198,13 @@ article p::first-letter
 }
 #contact input[type="text"],
 #contact input[type="tel"],
-#contact input[type="email"] {
+#contact input[type="email"] 
+{
     width:100%;
 }
 
-#contact fieldset{
+#contact fieldset
+{
     
     color:#5CFFE6;
     
