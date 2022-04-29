@@ -184,9 +184,7 @@ article p::first-letter
     
 }
 
-#contact h2{
-    text-align: left;
-}
+
 #video {
     text-align: center;
 }
@@ -215,7 +213,7 @@ article p::first-letter
     
 }
 
-#contact ul label{
+#contact ul {
     list-style: none;
 }
 
@@ -248,7 +246,7 @@ article p::first-letter
     animation-iteration-count:infinite;
 }
 #flower{
-    align-self: center;
+    text-align: center;
 }
 @keyframes flower{
     from{background-color: #FFE378;}
@@ -257,8 +255,8 @@ article p::first-letter
     
 }
 
-#contact label{
-    padding-bottom: 10em;
+#contact input, #contact textarea, #contact select{
+    margin-bottom: 1em;
 }
 
 #flower img{
