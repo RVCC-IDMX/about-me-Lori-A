@@ -12,7 +12,7 @@ This about me project will showcase the skills that I have learned in Webpage De
 ## Colour Scheme
 
     For the colour scheme, I wanted to use colours that were complimentary. The colours used in this project are **#FFE378**,**#5CFFE6**,**#94530A**. **#3DB1E0** and **#808080** were added as more of supporting colours. 
-    A visual example of the colours 
+    #A visual example of the colours 
     <img src="https://user-images.githubusercontent.com/98140123/150465971-93d7662e-f6ed-44d9-b167-a8bab9111843.png" width="500" height="500"> ![gif](https://user-images.githubusercontent.com/98140123/150468077-4834feef-c0f3-434f-b441-3f8aefecb043.gif)
 
 ## Citations
@@ -21,4 +21,4 @@ Header
 Hobbies
 Photo Galley
 Animation Demo
-*** They are all licensed to be used freely by individuals. In other words they are under the category creative commons license.*** 
+***They are all licensed to be used freely by individuals. In other words they are under the category creative commons license*** 
