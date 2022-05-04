@@ -24,7 +24,6 @@ nav ul {
 }
 nav li{
     list-style: none;
-    /*border:2px solid #94530A;*/
     padding: 5px;
     margin: 5px;
     display: inline-block;
@@ -79,14 +78,6 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-/*@media screen and (min-width:80px)
-{
-    .navbar{
-        display:grid;
-        flex-direction: row;
-        
-    }
-}
 
 
 /* Professor's Code */
