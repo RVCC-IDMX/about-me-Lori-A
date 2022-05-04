@@ -11,4 +11,13 @@ This about me project will showcase the skills that I have learned in Webpage De
 
 ## Colour Scheme
 
-    The colours that were used in the project are #FFE378,#3DB1E0,#5CFFE6,#94530A and #808080.
+    For the colour scheme, I wanted to use colours that were complimentary. The colours used in this project are **#FFE378**,**#5CFFE6**,**#94530A**. **#3DB1E0** and **#808080** were added as more of supporting colours. 
+    A visual example of the colours 
+
+## Citations
+For the images used in the :
+Header
+Hobbies
+Photo Galley
+Animation Demo
+*** They are all licensed to be used freely by individuals. In other words they are under the category creative commons license.*** 
