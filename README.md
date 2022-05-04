@@ -14,7 +14,7 @@ This about me project will showcase the skills that I have learned in Webpage De
     For the colour scheme, I wanted to use colours that were complimentary. The colours used in this project are *#FFE378*,*#5CFFE6*,*#94530A*. Other colours were added as more of supporting colours. 
     
     #A visual example of the colours 
-   ![colour](colour1.png)
+   <img src ="img/colour1.png" alt = "colour">
 
 <img src="https://user-images.githubusercontent.com/98140123/150465971-93d7662e-f6ed-44d9-b167-a8bab9111843.png" width="500" height="500">
 ## Citations
