@@ -24,7 +24,6 @@ nav ul {
 }
 nav li{
     list-style: none;
-    /*border:2px solid #94530A;*/
     padding: 5px;
     margin: 5px;
     display: inline-block;
@@ -54,6 +53,8 @@ a:link{
     width: 7vw; 
     margin-bottom:2rem;
     margin-left: .25rem;
+    margin-right: 1rem;
+    background-color: #FFE378;
 }
 
 
@@ -62,13 +63,13 @@ a:link{
  and then on hover
 */
 a:link{
-    color:black;
+    color:#94530A;
 }
   a:hover{
       color:#FFE378;
   }
   a:visited{
-      color: #5CFFE6;
+      color: black;
   }
  
 /* 
@@ -77,14 +78,6 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-/*@media screen and (min-width:80px)
-{
-    .navbar{
-        display:grid;
-        flex-direction: row;
-        
-    }
-}
 
 
 /* Professor's Code */

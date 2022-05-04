@@ -25,7 +25,7 @@
 <!--the logo and page title-->
 <nav class="navbar">
     <div class="logo">
-        <img src="img/logo-96X96.svg" class="logo" alt="blue origami bird">
+        <img src="img/lobster.svg" class="logo" alt="lobster">
 
         <h1>Web Dev 1!</h1>  
     </div>
@@ -89,9 +89,17 @@
 <section id = "bio">
 
 <div>
-    <p> <strong>I want to be...</strong> </p>
+    <p> <strong>I want to be  succesful in everything I do.</strong> </p>
 
-    <p> succesful in everything I do.</p>
+    <p> I'm Lori and I'm West Indian.I am from a little island called Jamaica, well compared to other islands in the
+        Caribbean it's one of the biggest. I am 5ft even though people always assume that I'm shorter. I loving helping others in whatever way I can. I value friendship and family and the only thing that I put above that is my love for God. I am currenly majoring in IT and hope to gain an internship before transferring to
+        a four year institution. IT is new to me and so far I'm enjoying it. I get to take classes
+        like this where I learn new and exciting things that will help me later down. in life.
+        Carreer wise, I am split between becoming a systems analyst or a programmer. Cybersecurity
+        is also an interest of mine. I have always visited the states during summer but never winter and 
+        on top of that I'm used to a tropical climate, so you can assume what winter was like for me. I am always 
+        interested in learning and experiencing new things so I have a list of things that I would like to do. One of which is to travel and I want my first destination to be either Tokyo, Spain or Paris. Like I said, I want to be successful in everything I do, this is my personal mantra and I believe that as long as I put in the work and try my very best, things will fall into place.
+    </p>
 
 
 
@@ -106,8 +114,10 @@
     <ul>
         
         <li><b> Watching Anime</li></b>
-        <li><b>Listening to music</b></li>
-        <li><b> Watching Movies</b> </li>
+        <li><b>Listening to Music</b></li>
+        <li><b> Watching Movies</b></li>
+        <li><b> Spending Time with Family</b></li>
+
         
     </ul>
 </section>
@@ -127,7 +137,7 @@
 
 <figure>
     <img src = "img/Spring-640w.jpg" alt= "Spring">
-    <figcaption><b>Spring</b></figcaption></figure>
+    <figcaption><b>Spring</b></figcaption>
 </figure>
 
 <figure>
@@ -144,20 +154,73 @@
 </section>
 
 <article>
-<h2><u>Dracula</u></h2>
+<h2><u>CSS Animation</u></h2>
 <div id="lit">
-    <p>"You forget--or perhaps you do not know, though Jonathan does and so does Dr. Van Helsing--that I am the train fiend. At home in Exeter I always used to make up the time-tables, so as to be helpful to my husband. I found it so useful sometimes, that I always make a study of the time-tables now. I knew that if anything were to take us to Castle Dracula we should go by Galatz, or at any rate through Bucharest, so I learned the times very carefully. Unhappily there are not many to learn, as the only train to-morrow leaves as I say."</p>
+    <p>"CSS allows animation of HTML elements without using JavaScript or Flash!"(w3schools). The purpose of this style is to let an element change from one style to another. However, to use this type of a style, you must specify some "keyframes"  There are nine properties related to this type of CSS, namely:
+        <ul>
+        
+            <li><b>@keyframes</b></li>
+            <li><b>animation-name</b></li>
+            <li><b>animation-duration</b> </li>
+            <li><b>animation-delay</b></li>
+            <li><b>animation-iteration-count</b></li>
+            <li><b>animation-direction</b></li>
+            <li><b>animation-timing-function</b></li>
+            <li><b>animation-fill-mode</b></li>
+            <li><b>animation</b></li>
+            
+        </ul>
+      
+    </p>
 
 
 
 
 
-<p>"Can't we get a special?" asked Lord Godalming. Van Helsing shook his head: "I fear not. This land is very different from yours or mine; even if we did have a special, it would probably not arrive as soon as our regular train. Moreover, we have something to prepare. We must think. Now let us organize. You, friend Arthur, go to the train and get the tickets and arrange that all be ready for us to go in the morning. Do you, friend Jonathan, go to the agent of the ship and get from him letters to the agent in Galatz, with authority to make search the ship just as it was here. Morris Quincey, you see the Vice-Consul, and get his aid with his fellow in Galatz and all he can do to make our way smooth, so that no times be lost when over the Danube. John will stay with Madam Mina and me, and we shall consult. For so if time be long you may be delayed; and it will not matter when the sun set, since I am here with Madam to make report."</p>
+<p>
+    First we will discuss @keyframes rule.
+ This rule allows the animation to gradually change from one particular style to another at particular times. In order to get the animation working, the coder must bind the animation to an element. The main purpose of this rule is to hold whatever styles an element will have at certain times. For example (taken from w3schools)
+ /* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+    To create the @keyframes with a name, the animation-name property must be used. It specifies the names of one or more @keyframes which describes the animation(s) to apply to the element. The rule itself consists of keyframe sectors that allocates percentages to when the allocation occurs and a another list containing the styles for the @keyframe rule. Percentages can be listed in any order but it's important to note that they will execute in that exact order.
 
-<p>"And I," said Mrs. Harker brightly, and more like her old self than she had been for many a long day, "shall try to be of use in all ways, and shall think and write for you as I used to do. Something is shifting from me in some strange way, and I feel freer than I have been of late!" The three younger men looked happier at the moment as they seemed to realise the significance of her words; but Van Helsing and I, turning to each other, met each a grave and troubled glance. We said nothing at the time, however.</p>
+    <br><u>Animation-duration</u></br>
+        This property outlines how long an animation should take to complete. If the property isn't defined then the animation will not occur because of the default value which is set to 0. The time may be specified in seconds 9s) or milliseconds (ms).In other words, this property sets the lenght of time to a particular value and that value will determine how long the animation will take to complete one cycle. Just like the animation-name property, you can use percent to add as many style to an element as much as you like. For example (taken from w3schools)
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+  }
+  
+</p>
+
+<p> 
+
+ <br><u>Animation-delay</br></u>"
+  As the name suggests, this property specifies how long the animation will delay for the start of the animation. The animation can either start from the beginning, partway through the animation or at a later time. The time selctor specifies the moment the animation is applied to the specific element. Just like animation-duration, time can be specified using either seconds (s) or milliseconds (ms). For this animation, the unit is required. A positive value means that the animation should begin after the specified time has past. If the default time is chosen, that is 0, it indicates that animation will begin as soon as its applied to the element. On the other hand, if it is negative, it means that the animation will begin partway through its cycle.
+
+
+</p>
+
 </div>
 
 </article>
+<section id="flower">
+    <hr><h2>Animation Demo</h2>
+    <img src= "img/floweroutline.png" alt="animation"/>
+    <figcaption>Example showing CSS Animation</figcaption>
+
+
+
+
+
+</section>
+
+
+
 <section id="contact">
 <h2><b> Contact Me</b></h2>
 
@@ -165,8 +228,7 @@
 
 <form name="contactme" method="post" data-netlify="true">
 <fieldset>
-<legend>
-    Contact Form:</legend>
+<legend>Contact Form:</legend>
 
     <label for="name">Name:</label>
     <input id= "name" name="name" type="text" required><br>
@@ -199,19 +261,7 @@
         </ul>
     </fieldset>
     <input type="submit" value="Send">
-
-
-
-
-
-
-
 </fieldset>
-
-
-
-
-
 
 </form>
 </section>

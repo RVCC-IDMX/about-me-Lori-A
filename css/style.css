@@ -7,7 +7,8 @@ body{
 header{
     border: solid;
     text-align: center;
-    background-image: url(/img/cherryblossoms2.jpg);
+    background-image: url(/img/cherryblossoms.png);
+    background-size: auto;
 }
 header img {
     margin-top:2em;
@@ -55,18 +56,18 @@ img{
     padding: 30px;
     max-width: 100px;
     margin-bottom: 30px;
-    background-image: url(/img/cherryblossoms2.jpg);
+    background-image: url(/img/sky.jpg);
     background-size: auto;
     background-position: center;
-    box-shadow: 10px 10px 10px #94530A;
+    box-shadow: 5px 2px 10px #94530A;
             transition-duration: 2s;
 
 }
 #hobbies ul li:hover {
     background-color: #FFE378;
     transition-duration:2s;
-    color: #FFE378;
-    transform: scale(1.5) ;
+    color: #94530A;
+    transform: scale(1.5);
 }
 
 
@@ -98,32 +99,33 @@ img{
     text-align: center;
 }
 #gallery img{
-    
-    max-width: 480;
-    max-height:500px;
+    width:450px;
+    max-width: 100%;
 
     
 }
-figure img{
-    display: flex;
-}
+
+   
+
 #gallery figure{
+    margin:0px;
     margin-bottom: 95px;
     margin-top: 95px;
     display: inline-block;
 }
 
+
 #gallery figcaption{
     color: #94530A;
     font-size: 20px;
-    width: 300px;
-    height: 15px;
+    max-width:100%;
     text-align: center;
     border:  black 5px double ;
     box-shadow: 5px 3px 5px #94530A;
     padding-top: 5px;
     padding-bottom:5px;
     margin: 3px 5px 2px;
+  
 
     
 }
@@ -160,30 +162,35 @@ article p::first-letter
    
     /* tablet state*/
     @media screen and (min-width: 960px) {
-        figure img{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            grid-template-areas: 2px;
-            
+        #gallery figure{
+            display:grid;
+            grid-template-columns: 1fr 2fr;
         }
-    figcaption{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        margin-left: 1rem;
+       
+        #gallery figcaption{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            margin-left: 1rem;
+        }
+        #lit{
+            max-width: 100%;
+            columns: 40rem;
+        }
     }
-    #lit{
-        max-width: 100%;
-        columns: 40rem;
-    }
+
+#lit {
+    color: #94530A;
+    
 }
 
-#contact h2{
-    text-align: left;
-}
+
 #video {
     text-align: center;
+}
+#video iframe {
+    max-width:100%;
 }
 
 #contact {
@@ -210,22 +217,68 @@ article p::first-letter
     
 }
 
-#contact ul label{
+#contact ul {
     list-style: none;
 }
 
-nav ul {
-    padding:0px;
-}
-nav li{
-    list-style: none;
-    /*border:2px solid #94530A;*/
-    padding: 5px;
-    margin: 5px;
-    display: inline-block;
+#contact legend{
+    text-align: center;
 }
 
-  
+@media screen and (min-width:100em) {
+    #gallery {
+        padding:0px;
+        margin:0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery hr {
+        display: none;
+    }
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+    #gallery figure {
+        display:block;
+    }
+    #gallery figcaption {
+        width:90%;
+        margin:auto;
+    }
+}
+#flower img{
+    height: 10em;
+    background-color: #FFE378;
+    animation-name: flower;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+#flower{
+    text-align: center;
+}
+@keyframes flower{
+    from{background-color: #FFE378;}
+    to {background-color: #94530A;}
+
+    
+}
+
+#contact input, #contact textarea, #contact select{
+    margin-bottom: 1em;
+    
+}
+#contact textarea{
+    display: block;
+    width:100%;
+}
+
+#flower img{
+    align-items: center;
+}
+
+#flower figcaption{
+ margin-top: 5px;
+}
     
      
     
