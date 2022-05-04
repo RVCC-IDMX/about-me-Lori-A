@@ -63,13 +63,13 @@ a:link{
  and then on hover
 */
 a:link{
-    color:black;
+    color:#94530A;
 }
   a:hover{
       color:#FFE378;
   }
   a:visited{
-      color: #5CFFE6;
+      color: black;
   }
  
 /* 

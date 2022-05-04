@@ -15,11 +15,12 @@ For the colour scheme, I wanted to use colours that were complimentary. The colo
 For the images used in the :
 - Header
 - Hobbies
-- Photo Galley
+- Photo Gallery (pictures were taken by me)
 - Animation Demo
 
 ***They are all licensed to be used freely by individuals. In other words they are under the category creative commons license.*** 
   The code for hamburger icon in the nav css was from @SteveCaruso with some modification done by me.
+  Source for information in blog- W3Schools.
 
  ## License
  I reserve all rights for this webpage.
